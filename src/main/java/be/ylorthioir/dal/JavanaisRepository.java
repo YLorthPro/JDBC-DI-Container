@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public class RequetePreparee implements JavanaisDAO{
+public class JavanaisRepository implements JavanaisDAO{
 
     public void create(Javanais p) {
         String requete = "INSERT INTO javanais (nom, prenom) VALUES (?, ?)";

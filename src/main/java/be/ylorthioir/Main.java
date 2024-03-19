@@ -11,7 +11,7 @@ public class Main {
         
         DiContainer container = DiContainer.init();
         
-        RequetePreparee repo = container.get(RequetePreparee.class);
+        JavanaisRepository repo = container.get(JavanaisRepository.class);
 
         List<Javanais> javanais = repo.getAll();
         System.out.println(javanais.size());
