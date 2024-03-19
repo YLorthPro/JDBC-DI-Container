@@ -1,5 +1,8 @@
-package be.ylorthioir.dal;
+package be.ylorthioir;
 
+import be.ylorthioir.dal.DiContainer;
+import be.ylorthioir.dal.InitDB;
+import be.ylorthioir.dal.JavanaisRepository;
 import be.ylorthioir.entities.Javanais;
 
 import java.util.List;
